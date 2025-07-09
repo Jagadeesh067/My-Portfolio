@@ -64,7 +64,7 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-16 animate-fade-in delay-500">
-            <a href="#" className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 hover:rotate-6">
+            <a href="https://github.com/Jagadeesh067" target="_blank" rel="noopener noreferrer" className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 hover:rotate-6">
               <Github className="w-6 h-6 text-gray-700 dark:text-gray-300" />
             </a>
             <a href="#" className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 hover:rotate-6">
