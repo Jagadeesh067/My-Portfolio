@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="mb-8 relative">
             <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1 shadow-2xl hover:scale-105 transition-transform duration-300">
               <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-6xl font-bold text-gray-600 dark:text-gray-400">
-                YN
+                DJ
               </div>
             </div>
             <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 rounded-full border-4 border-white dark:border-gray-900 animate-pulse"></div>
@@ -26,7 +26,7 @@ const Hero = () => {
 
           {/* Name and Title */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-fade-in">
-            Your Full Name
+            Duda Jagadeesh
           </h1>
           
           <h2 className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-4 animate-fade-in delay-200">

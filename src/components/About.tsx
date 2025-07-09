@@ -20,10 +20,10 @@ const About = () => {
             <div className="relative">
               <div className="w-full max-w-md mx-auto bg-gradient-to-br from-blue-100 to-purple-100 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-8 shadow-2xl transform hover:scale-105 transition-transform duration-300">
                 <div className="w-32 h-32 mx-auto bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-4xl font-bold text-white mb-4">
-                  YN
+                  DJ
                 </div>
                 <div className="text-center">
-                  <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">Your Full Name</h3>
+                  <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">Duda Jagadeesh</h3>
                   <p className="text-gray-600 dark:text-gray-400">Full-Stack Developer</p>
                 </div>
               </div>
