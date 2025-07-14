@@ -245,47 +245,6 @@ const Blog = () => {
             ))}
           </div>
         </div>
-
-        {/* Newsletter Signup - Placeholder */}
-        <div className="mt-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-center text-white shadow-2xl">
-          <h3 className="text-2xl font-bold mb-4">Stay Updated</h3>
-          <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Subscribe to my newsletter to get the latest articles, tutorials, and insights 
-            delivered directly to your inbox. No spam, just valuable content for developers.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-full text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
-            />
-            <Button className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-full font-semibold whitespace-nowrap">
-              Subscribe
-            </Button>
-          </div>
-        </div>
-
-        {/* Blog Stats */}
-        <div className="mt-16 grid sm:grid-cols-3 gap-6 text-center">
-          {[
-            { number: "25+", label: "Articles Published" },
-            { number: "10K+", label: "Total Reads" },
-            { number: "500+", label: "Newsletter Subscribers" }
-          ].map((stat, index) => (
-            <div
-              key={index}
-              className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg animate-fade-in"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
-                {stat.number}
-              </div>
-              <div className="text-gray-600 dark:text-gray-400 font-medium">
-                {stat.label}
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );

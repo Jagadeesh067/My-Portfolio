@@ -86,17 +86,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-
-            {/* Education highlight */}
-            <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-700 rounded-xl p-6 shadow-lg">
-              <h4 className="text-lg font-semibold mb-2 text-gray-800 dark:text-white">Currently Studying</h4>
-              <p className="text-gray-600 dark:text-gray-400">
-                Bachelor's in Computer Science at [Your University]
-              </p>
-              <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">
-                Expected Graduation: [Year]
-              </p>
-            </div>
           </div>
         </div>
       </div>

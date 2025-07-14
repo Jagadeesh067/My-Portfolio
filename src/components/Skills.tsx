@@ -7,37 +7,25 @@ const Skills = () => {
       icon: Code,
       title: "Programming Languages",
       color: "blue",
-      skills: ["JavaScript", "TypeScript", "Python", "Java", "C++", "SQL"]
+      skills: ["JavaScript","Python", "Java", "SQL"]
     },
     {
       icon: Globe,
       title: "Frontend Technologies",
       color: "purple",
-      skills: ["React", "Vue.js", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"]
+      skills: ["React", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"]
     },
     {
       icon: Database,
       title: "Backend & Database",
       color: "green",
-      skills: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "Firebase", "GraphQL"]
+      skills: ["Node.js", "Express.js", "MongoDB"]
     },
     {
       icon: Settings,
       title: "Tools & Frameworks",
       color: "orange",
-      skills: ["Git", "Docker", "AWS", "Figma", "VS Code", "Postman"]
-    },
-    {
-      icon: Smartphone,
-      title: "Mobile Development",
-      color: "pink",
-      skills: ["React Native", "Flutter", "iOS", "Android", "Responsive Design"]
-    },
-    {
-      icon: Palette,
-      title: "Design & UI/UX",
-      color: "indigo",
-      skills: ["Adobe XD", "Sketch", "Prototyping", "Wireframing", "User Research"]
+      skills: ["Git","AWS", "Figma", "VS Code"]
     }
   ];
 
@@ -115,10 +103,7 @@ const Skills = () => {
             {[
               { skill: "Frontend Development", level: 90, color: "blue" },
               { skill: "Backend Development", level: 80, color: "green" },
-              { skill: "Database Management", level: 75, color: "purple" },
-              { skill: "UI/UX Design", level: 70, color: "pink" },
-              { skill: "Mobile Development", level: 65, color: "orange" },
-              { skill: "DevOps & Cloud", level: 60, color: "indigo" }
+              { skill: "Database Management", level: 75, color: "purple" }   
             ].map((item) => (
               <div key={item.skill} className="space-y-2">
                 <div className="flex justify-between">

@@ -129,35 +129,14 @@ const Footer = () => {
             </nav>
           </div>
         </div>
-
-        {/* Newsletter Subscription */}
-        <div className="bg-gradient-to-r from-blue-800/30 to-purple-800/30 rounded-2xl p-8 mb-12 border border-blue-700/30">
-          <div className="text-center">
-            <h4 className="text-2xl font-bold mb-4">Stay Connected</h4>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Get the latest updates on my projects, blog posts, and tech insights. 
-              Join my newsletter for exclusive content and tips!
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              />
-              <button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 whitespace-nowrap">
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </div>
-
+    
         {/* Skills Highlight */}
         <div className="mb-12">
           <h4 className="text-xl font-semibold mb-6 text-center">Technologies I Work With</h4>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'React', 'TypeScript', 'Node.js', 'Python', 'JavaScript', 
-              'Tailwind CSS', 'MongoDB', 'PostgreSQL', 'AWS', 'Docker'
+              'React', 'TypeScript', 'Node.js', 'Python', 'Java','JavaScript', 
+              'Tailwind CSS', 'MongoDB'
             ].map((tech, index) => (
               <span
                 key={tech}

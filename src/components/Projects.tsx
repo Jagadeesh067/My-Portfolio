@@ -5,48 +5,51 @@ import { Button } from '@/components/ui/button';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Nxt Trendz E-Commerce Platform",
       description: "A full-stack e-commerce platform with user authentication, payment integration, and admin dashboard. Features include product catalog, shopping cart, order management, and real-time inventory tracking.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
+      image: "https://repository-images.githubusercontent.com/456963513/82528385-a73f-488f-9003-513321283a6b",
       technologies: ["React", "Node.js", "MongoDB", "Stripe API", "JWT"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/Jagadeesh067/Nxt-Trendz-E-Commerce-Platform",
+      liveUrl: "https://jagadeeshtrendz.ccbp.tech/",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, team collaboration features, and progress tracking. Built with modern web technologies for optimal performance.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-      technologies: ["Vue.js", "Firebase", "Vuex", "CSS3"],
-      githubUrl: "#",
-      liveUrl: "#",
-      featured: false
-    },
+  title: "Jobby App",
+  description: "A feature-rich job portal with login authentication, job filtering, detailed job views, and failure handling. Implements real-time search and secure routing for a seamless user experience.",
+  image: "https://assets.ccbp.in/frontend/react-js/home-lg-bg.png",
+  technologies: ["React.js", "React Router", "JWT", "REST APIs", "CSS3"],
+  githubUrl: "https://github.com/Jagadeesh067/Enhancement-of-Jobby-App/tree/main",
+  liveUrl: "https://JagguJobbyApp.ccbp.tech",
+  featured: false
+}
+,
     {
-      title: "Weather Dashboard",
-      description: "An interactive weather dashboard that provides detailed weather information, forecasts, and historical data. Features beautiful visualizations and location-based services.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
-      technologies: ["JavaScript", "Chart.js", "Weather API", "Bootstrap"],
-      githubUrl: "#",
-      liveUrl: "#",
-      featured: false
-    },
+  title: "IPL Dashboard App",
+  description: "An interactive IPL dashboard app that displays team details, recent matches, and live match cards. Implements dynamic routing, loader states, and API integration for a real-time experience.",
+  image: "https://exchange4media.gumlet.io/news-photo/139188-IPL.jpg",
+  technologies: ["React.js", "React Router", "REST APIs", "CSS3"],
+  githubUrl: "https://github.com/Jagadeesh067/Enhancement-of-IPL-Dashboard-App",
+  liveUrl: "https://IPLdashboarddj.ccbp.tech",
+  featured: false
+}
+,
     {
-      title: "Social Media Analytics",
-      description: "A comprehensive analytics dashboard for social media metrics with data visualization, trend analysis, and automated reporting features. Helps businesses track their social media performance.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
-      technologies: ["React", "D3.js", "Python", "Flask", "PostgreSQL"],
-      githubUrl: "#",
-      liveUrl: "#",
-      featured: true
-    },
+  title: "Movies App",
+  description: "Built a responsive movies app using React JS to explore trending films, view detailed info, and search by title. Used React Router for navigation and dynamic rendering. Ensured accessibility and mobile-friendly design.",
+  image: "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F12038776%2Fdbabda1e8f2d39e88b030173303b2724%2FNetflix.jpg?generation=1713257307281984&alt=media",
+  technologies: ["React", "JavaScript", "CSS", "React Router"],
+  githubUrl: "https://github.com/Jagadeesh067/Jaggu-Movies-App",
+  liveUrl: "https://jaggumoviesapp.ccbp.tech",
+  featured: true
+}
+,
     {
-      title: "Recipe Finder App",
-      description: "A mobile-responsive recipe application that helps users discover new recipes based on available ingredients. Features include nutritional information and cooking timers.",
-      image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&h=300&fit=crop",
-      technologies: ["React Native", "Redux", "Recipe API", "AsyncStorage"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Resto Cafe App",
+      description: "Enhanced restaurant app with login, authentication, and cart features. Supports adding/removing items, protected routes, and persistent cart using Context API and js-cookie.",
+      image: "https://lvivity.com/wp-content/uploads/2018/11/mobile-app-for-restaurant.jpg",
+      technologies: ["React", "React Router", "Context API", "js-cookie", "Tailwind CSS"],
+      githubUrl: "https://github.com/Jagadeesh067/restaurant-app-enhancement/tree/main/enancement_of_restaurent_app-main",
+      liveUrl: "https://restoCafeApp.ccbp.tech",
       featured: false
     },
     {
@@ -209,15 +212,22 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button
-            variant="outline"
-            size="lg"
-            className="px-8 py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-300"
-          >
-            <Github className="w-5 h-5 mr-2" />
-            View More on GitHub
-          </Button>
-        </div>
+  <a
+    href="https://github.com/Jagadeesh067"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button
+      variant="outline"
+      size="lg"
+      className="px-8 py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-300"
+    >
+      <Github className="w-5 h-5 mr-2" />
+      View More on GitHub
+    </Button>
+  </a>
+</div>
+
       </div>
     </section>
   );

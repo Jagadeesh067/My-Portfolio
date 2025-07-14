@@ -10,7 +10,6 @@ import Experience from '@/components/Experience';
 import Education from '@/components/Education';
 import Achievements from '@/components/Achievements';
 import Blog from '@/components/Blog';
-import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -54,7 +53,6 @@ const Index = () => {
         <Education />
         <Achievements />
         <Blog />
-        <Testimonials />
         <Contact />
         <Footer />
       </div>

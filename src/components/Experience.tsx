@@ -3,66 +3,7 @@ import { Calendar, MapPin, Building, ExternalLink } from 'lucide-react';
 
 const Experience = () => {
   const experiences = [
-    {
-      title: "Frontend Developer Intern",
-      company: "TechStart Solutions",
-      location: "San Francisco, CA",
-      duration: "Jun 2023 - Aug 2023",
-      type: "Internship",
-      description: [
-        "Developed responsive web applications using React and TypeScript, improving user experience by 25%",
-        "Collaborated with senior developers to implement new features and optimize existing codebase",
-        "Participated in code reviews and learned best practices for maintainable, scalable code",
-        "Built reusable UI components that reduced development time by 30% across multiple projects"
-      ],
-      technologies: ["React", "TypeScript", "CSS3", "Git", "Agile"],
-      website: "#"
-    },
-    {
-      title: "Web Development Freelancer",
-      company: "Self-Employed",
-      location: "Remote",
-      duration: "Jan 2023 - Present",
-      type: "Freelance",
-      description: [
-        "Created custom websites for small businesses, resulting in an average 40% increase in online engagement",
-        "Managed full project lifecycle from client consultation to deployment and maintenance",
-        "Implemented SEO best practices and responsive design principles for optimal user experience",
-        "Delivered projects on time and within budget, maintaining 100% client satisfaction rate"
-      ],
-      technologies: ["HTML", "CSS", "JavaScript", "WordPress", "Figma"],
-      website: "#"
-    },
-    {
-      title: "Research Assistant",
-      company: "University Computer Science Lab",
-      location: "University Campus",
-      duration: "Sep 2022 - May 2023",
-      type: "Part-time",
-      description: [
-        "Assisted graduate students with machine learning research projects focused on natural language processing",
-        "Collected and preprocessed large datasets for training ML models, improving data quality by 20%",
-        "Documented research findings and contributed to academic papers and presentations",
-        "Gained hands-on experience with Python, TensorFlow, and data analysis tools"
-      ],
-      technologies: ["Python", "TensorFlow", "Pandas", "NumPy", "Jupyter"],
-      website: "#"
-    },
-    {
-      title: "IT Support Volunteer",
-      company: "Local Community Center",
-      location: "Community Center",
-      duration: "Jun 2022 - Aug 2022",
-      type: "Volunteer",
-      description: [
-        "Provided technical support to community members, helping with computer literacy and basic troubleshooting",
-        "Set up and maintained computer lab equipment for educational programs",
-        "Taught basic web development skills to teenagers in summer coding bootcamp",
-        "Developed problem-solving skills while working with diverse age groups and technical skill levels"
-      ],
-      technologies: ["Windows", "Microsoft Office", "Basic HTML/CSS", "Troubleshooting"],
-      website: "#"
-    }
+    
   ];
 
   const getTypeColor = (type: string) => {

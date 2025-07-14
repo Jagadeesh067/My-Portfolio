@@ -5,11 +5,11 @@ const Education = () => {
   const education = [
     {
       degree: "Bachelor of Science in Computer Science",
-      institution: "Your University Name",
-      location: "City, State",
-      duration: "2021 - 2025 (Expected)",
-      gpa: "3.8/4.0",
-      status: "In Progress",
+      institution: "KAKINADA INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+      location: "Korangi, Andhra Pradesh",
+      duration: "2021 - 2025",
+      CGPA: "7.54/10",
+      status: "Completed",
       description: "Comprehensive computer science program with focus on software engineering, algorithms, and system design. Active participant in coding clubs and hackathons.",
       coursework: [
         "Data Structures & Algorithms",
@@ -28,11 +28,32 @@ const Education = () => {
       ]
     },
     {
-      degree: "High School Diploma",
-      institution: "Your High School Name",
-      location: "City, State",
-      duration: "2017 - 2021",
-      gpa: "3.9/4.0",
+    degree: "Intermediate",
+    institution: "Aditya Junior College",
+    location: "Kakinada, Andhra Pradesh",
+    duration: "2019 - 2021",
+    CGPA: "895/1000",
+    status: "Graduated",
+    description: "Focused on core subjects in science and mathematics with consistent academic performance and participation in Olympiads and other co-curricular activities.",
+    coursework: [
+      "Mathematics",
+      "Physics",
+      "Chemistry",
+      "English",
+      "Sanskrit"
+    ],
+    achievements: [
+      "Scored distinction in all subjects",
+      "Ranked top 5% in college",
+      "Participated in district-level science quiz competitions"
+    ]
+  }
+    ,{
+      degree: "High School",
+      institution: "Z.P High School",
+      location: "Mulapeta, Andhra Pradesh",
+      duration: "2019",
+      CGPA: "9.5/10",
       status: "Graduated",
       description: "Strong foundation in mathematics and science with early exposure to programming through AP Computer Science courses.",
       coursework: [
@@ -134,7 +155,7 @@ const Education = () => {
                           <span className="hidden sm:block">•</span>
                           <div className="flex items-center">
                             <Award className="w-4 h-4 mr-2" />
-                            <span>GPA: {edu.gpa}</span>
+                            <span>GPA: {edu.CGPA}</span>
                           </div>
                         </div>
 
