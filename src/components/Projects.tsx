@@ -57,7 +57,7 @@ const Projects = () => {
       description: "A modern, responsive portfolio website built with cutting-edge technologies. Features dark mode, smooth animations, and optimized performance across all devices.",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
       technologies: ["TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/Jagadeesh067/My-Portfolio",
       liveUrl: "#",
       featured: false
     }
